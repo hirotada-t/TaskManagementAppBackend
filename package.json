@@ -1,0 +1,32 @@
+{
+  "name": "task-management-app-backend",
+  "version": "0.0.1",
+  "description": "Project to develop a ToDo App",
+  "productName": "Task Management App Backend",
+  "author": "Hirotada Takeuchi <t.hir0tada.biz@gmail.com>",
+  "private": true,
+  "scripts": {
+    "f": "run-p lint prettier",
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "prettier": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.3",
+    "mysql": "^2.18.1"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.13.0",
+    "npm-run-all": "^4.1.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
